@@ -1,0 +1,107 @@
+.nav-bar{
+    background-color: yellow;
+    padding:2px;
+    margin:20px;
+    font-size: 20px;
+}
+body{
+    background-color: #f4f6f9;
+    color: black;
+    text-align:center;
+    Font-size:20px;
+    font-family:Times New Roman;
+    }
+h1{
+    background-color: green;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background: #111;
+    color: white;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.hero-text h4{
+    font-size: 50px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+img {
+ width: 300px;               
+height: auto;               
+border: 2px solid #ddd;     
+border-radius: 20px;        
+margin-top: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* subtle drop shadow */
+transition: transform 0.2s; 
+    }
+    h1{
+        background-color: green;
+    }
+.service-card{
+    background-color: #f4f6f9;
+    color: #333;
+    padding: 10px 0%;
+}
+.service-card {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 16px; 
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #eef2f5;
+}
+
+.card-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff5a00;
+    color: #fff;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    width: 100%; 
+}
+form button{
+  padding: 15px 30px;
+  border: none;
+  background: cyan;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form input,
+form textarea{
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+footer{
+  background: #223111;
+  text-align: center;
+  padding: 30px;
+}
+.socials{
+  margin-top: 10px;
+}
+
+.socials a{
+  color: cyan;
+  margin: 0 10px;
+  text-decoration: none;
+}
